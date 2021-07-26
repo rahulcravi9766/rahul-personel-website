@@ -404,7 +404,7 @@ a:focus {
     margin-bottom: 10px;
     padding-left: 15px;
     position: relative;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -436,7 +436,7 @@ a:focus {
 .section-header h2 {
     margin: 0;
     position: relative;
-    font-size: 45px;
+    font-size: 33px;
     font-weight: 700;
 }
 
@@ -481,7 +481,10 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 16px;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: distribute;
+
 }
 
 .about .skills {
@@ -495,7 +498,7 @@ a:focus {
 .about .skill-name p {
     display: inline-block;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -639,20 +642,23 @@ a:focus {
 
 .experience .timeline .timeline-text h2 {
     margin: 0 0 5px 0;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 600;
 }
 
 .experience .timeline .timeline-text h4 {
     margin: 0 0 10px 0;
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     font-weight: 400;
 }
 
 .experience .timeline .timeline-text p {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
+    text-align: justify;
+    text-justify: distribute;
+
 }
 
 @media (max-width: 767.98px) {
@@ -755,14 +761,15 @@ a:focus {
 
 .service .service-text h3 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     transition: 1s;
 }
 
 .service .service-text p {
+    
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     transition: 1s;
 }
 
@@ -926,7 +933,7 @@ a:focus {
 }
 
 .testimonial .testimonial-item p {
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
 }
 
@@ -1071,14 +1078,14 @@ a:focus {
 
 .footer .footer-info h2 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 700;
     color: #ffffff;
 }
 
 .footer .footer-info h3 {
     margin-bottom: 25px;
-    font-size: 22px;
+    font-size: 13px;
     font-weight: 600;
     color: #ffffff;
 }
@@ -1091,7 +1098,7 @@ a:focus {
 
 .footer .footer-menu p {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 13px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 15px;
@@ -1180,3 +1187,95 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+
+
+/** we_do section **/
+
+/* .padd_left0 {
+    padding-left: 0;
+}
+
+.we_do {
+    background: #232323;
+    padding: 90px 0px 60px 0px;
+}
+
+.we_do .titlepage h2 {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.titlepage span {
+    background: #fff;
+    border-radius: 44px;
+    padding: 3px 11px;
+    z-index: 999;
+    position: relative;
+}
+
+.titlepage strong {
+    border-top: #e5af23 solid 1px;
+    width: 260px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 61px; 
+} */
+
+.we_do_box i {
+ 
+
+    border: #16034b solid 4px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 85px;
+    transition: ease-in all 0.1s;
+    cursor: pointer;
+}
+
+.we_do_box i:hover {
+    width: 140px;
+    height: 140px;
+    transition: ease-in all 0.2s;
+}
+
+.we_do_box {
+    text-align: center;
+}
+
+.we_do_box h4 {
+    color: #3b3b3b;
+    text-transform: uppercase;
+    font-family: 'Montserrat','Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 0;
+    padding-top: 35px;
+
+    
+    
+}
+
+.we_do_box p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 28px;
+    padding: 25px 0;
+    text-align: justify;
+    text-justify: distribute;
+}
+
+.we_do .read_more {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/** end we_do section **/
