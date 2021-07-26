@@ -442,7 +442,7 @@ a:focus {
 
 @media (max-width: 767.98px) {
     .section-header h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -871,7 +871,7 @@ a:focus {
 
 .portfolio .portfolio-text h3 {
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
     margin: 0 0 0 15px;
